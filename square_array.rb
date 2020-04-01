@@ -1,3 +1,3 @@
 def square_array(array)
-  array.each { |num| puts num.sqrt(2)}
+  array.each { |num| puts num % 2 == 0}
 end
